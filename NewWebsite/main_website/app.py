@@ -1,18 +1,15 @@
-import pickle
-from flask import Flask, redirect,url_for
+from flask import Flask, render_template
 
 app = Flask(__name__)
 
+@app.route("/home")
 @app.route("/")
 def home():
-    return "This is the home page <h1>HOME<h1>"
+    return render_template("home.html")
 
-@app.route("/<name>")
-def user(name):
-    return f"Hello {name}!"
+@app.route("/kerala")
+def kerala():
+    return render_template("kerala.html")
 
-@app.route("/admin/")
-def admin():
-    return redirect(url_for("user", name="Admin !"))
 if __name__ == "__main__":
-    app.run(debug=True )
+    app.run(debug=True)
