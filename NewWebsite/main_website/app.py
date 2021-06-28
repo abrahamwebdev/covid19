@@ -26,9 +26,14 @@ def kerala():
             model = pickle.load(f)
         forecast = model.predict(date)
         x=forecast.iloc[ : ,3].values
+        return redirect(url_for("predict",pred=x))
 
     else:
         return render_template("kerala.html")
+
+@app.route("/<pred>")
+def predict(pred):
+    return render_template("predict.html", id=pred)
 
 if __name__ == "__main__":
     app.run(debug=True)
