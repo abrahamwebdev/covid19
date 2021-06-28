@@ -73,3 +73,270 @@ ERROR: Could not find a version that satisfies the requirement httpstan<4.6,>=4.
 ERROR: No matching distribution found for httpstan<4.6,>=4.5 (from pystan)
 
 command.
+
+
+in wsl
+pip install fbprophet
+Collecting fbprophet
+  Downloading fbprophet-0.7.1.tar.gz (64 kB)
+     |████████████████████████████████| 64 kB 819 kB/s
+Collecting Cython>=0.22
+  Downloading Cython-0.29.23-cp38-cp38-manylinux1_x86_64.whl (1.9 MB)
+     |████████████████████████████████| 1.9 MB 2.1 MB/s
+Collecting cmdstanpy==0.9.5
+  Downloading cmdstanpy-0.9.5-py3-none-any.whl (37 kB)
+Collecting pystan>=2.14
+  Downloading pystan-3.2.0-py3-none-any.whl (13 kB)
+Collecting numpy>=1.15.4
+  Downloading numpy-1.21.0-cp38-cp38-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (15.7 MB)
+     |████████████████████████████████| 15.7 MB 5.8 MB/s
+Collecting pandas>=1.0.4
+  Downloading pandas-1.2.5-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.whl (9.7 MB)
+     |████████████████████████████████| 9.7 MB 7.1 MB/s
+Collecting matplotlib>=2.0.0
+  Downloading matplotlib-3.4.2-cp38-cp38-manylinux1_x86_64.whl (10.3 MB)
+     |████████████████████████████████| 10.3 MB 6.8 MB/s
+Collecting LunarCalendar>=0.0.9
+  Downloading LunarCalendar-0.0.9-py2.py3-none-any.whl (18 kB)
+Collecting convertdate>=2.1.2
+  Downloading convertdate-2.3.2-py3-none-any.whl (47 kB)
+     |████████████████████████████████| 47 kB 3.3 MB/s
+Collecting holidays>=0.10.2
+  Downloading holidays-0.11.1-py3-none-any.whl (133 kB)
+     |████████████████████████████████| 133 kB 8.5 MB/s
+Collecting setuptools-git>=1.2
+  Downloading setuptools_git-1.2-py2.py3-none-any.whl (10 kB)
+Collecting python-dateutil>=2.8.0
+  Downloading python_dateutil-2.8.1-py2.py3-none-any.whl (227 kB)
+     |████████████████████████████████| 227 kB 7.0 MB/s
+Collecting tqdm>=4.36.1
+  Downloading tqdm-4.61.1-py2.py3-none-any.whl (75 kB)
+     |████████████████████████████████| 75 kB 2.3 MB/s
+Collecting pytz>=2014.10
+  Downloading pytz-2021.1-py2.py3-none-any.whl (510 kB)
+     |████████████████████████████████| 510 kB 8.1 MB/s
+Collecting pymeeus<=1,>=0.3.13
+  Downloading PyMeeus-0.5.11.tar.gz (5.4 MB)
+     |████████████████████████████████| 5.4 MB 8.9 MB/s
+Collecting korean-lunar-calendar
+  Downloading korean_lunar_calendar-0.2.1-py3-none-any.whl (8.0 kB)
+Collecting hijri-converter
+  Downloading hijri_converter-2.1.3-py3-none-any.whl (14 kB)
+Collecting six
+  Downloading six-1.16.0-py2.py3-none-any.whl (11 kB)
+Collecting ephem>=3.7.5.3
+  Downloading ephem-4.0.0.2-cp38-cp38-manylinux2010_x86_64.whl (1.2 MB)
+     |████████████████████████████████| 1.2 MB 8.0 MB/s
+Collecting cycler>=0.10
+  Downloading cycler-0.10.0-py2.py3-none-any.whl (6.5 kB)
+Collecting pillow>=6.2.0
+  Downloading Pillow-8.2.0-cp38-cp38-manylinux1_x86_64.whl (3.0 MB)
+     |████████████████████████████████| 3.0 MB 8.2 MB/s
+Collecting pyparsing>=2.2.1
+  Downloading pyparsing-2.4.7-py2.py3-none-any.whl (67 kB)
+     |████████████████████████████████| 67 kB 3.3 MB/s
+Collecting kiwisolver>=1.0.1
+  Downloading kiwisolver-1.3.1-cp38-cp38-manylinux1_x86_64.whl (1.2 MB)
+     |████████████████████████████████| 1.2 MB 8.1 MB/s
+Collecting aiohttp<4.0,>=3.6
+  Downloading aiohttp-3.7.4.post0-cp38-cp38-manylinux2014_x86_64.whl (1.5 MB)
+     |████████████████████████████████| 1.5 MB 8.4 MB/s
+Collecting clikit<0.7,>=0.6
+  Downloading clikit-0.6.2-py2.py3-none-any.whl (91 kB)
+     |████████████████████████████████| 91 kB 4.4 MB/s
+Collecting httpstan<4.6,>=4.5
+  Downloading httpstan-4.5.0-cp38-cp38-manylinux_2_24_x86_64.whl (39.9 MB)
+     |████████████████████████████████| 39.9 MB 39 kB/s
+Collecting pysimdjson<4.0,>=3.2
+  Downloading pysimdjson-3.2.0-cp38-cp38-manylinux2014_x86_64.whl (2.4 MB)
+     |████████████████████████████████| 2.4 MB 9.0 MB/s
+Collecting typing-extensions>=3.6.5
+  Downloading typing_extensions-3.10.0.0-py3-none-any.whl (26 kB)
+Collecting attrs>=17.3.0
+  Downloading attrs-21.2.0-py2.py3-none-any.whl (53 kB)
+     |████████████████████████████████| 53 kB 1.7 MB/s
+Collecting async-timeout<4.0,>=3.0
+  Downloading async_timeout-3.0.1-py3-none-any.whl (8.2 kB)
+Collecting chardet<5.0,>=2.0
+  Downloading chardet-4.0.0-py2.py3-none-any.whl (178 kB)
+     |████████████████████████████████| 178 kB 9.5 MB/s
+Collecting multidict<7.0,>=4.5
+  Downloading multidict-5.1.0-cp38-cp38-manylinux2014_x86_64.whl (159 kB)
+     |████████████████████████████████| 159 kB 8.7 MB/s
+Collecting yarl<2.0,>=1.0
+  Downloading yarl-1.6.3-cp38-cp38-manylinux2014_x86_64.whl (324 kB)
+     |████████████████████████████████| 324 kB 8.9 MB/s
+Collecting pastel<0.3.0,>=0.2.0
+  Downloading pastel-0.2.1-py2.py3-none-any.whl (6.0 kB)
+Collecting pylev<2.0,>=1.3
+  Downloading pylev-1.4.0-py2.py3-none-any.whl (6.1 kB)
+Collecting crashtest<0.4.0,>=0.3.0
+  Downloading crashtest-0.3.1-py3-none-any.whl (7.0 kB)
+Collecting lz4<4.0,>=3.1
+  Downloading lz4-3.1.3-cp38-cp38-manylinux2010_x86_64.whl (1.8 MB)
+     |████████████████████████████████| 1.8 MB 8.6 MB/s
+Requirement already satisfied: setuptools>=41.0 in /root/.local/share/virtualenvs/main_website-MH8iyLXC/lib/python3.8/site-packages (from httpstan<4.6,>=4.5->pystan>=2.14->fbprophet) (57.0.0)
+Collecting webargs<8.0,>=7.0
+  Downloading webargs-7.0.1-py2.py3-none-any.whl (30 kB)
+Collecting appdirs<2.0,>=1.4
+  Using cached appdirs-1.4.4-py2.py3-none-any.whl (9.6 kB)
+Collecting marshmallow<4.0,>=3.10
+  Downloading marshmallow-3.12.1-py2.py3-none-any.whl (47 kB)
+     |████████████████████████████████| 47 kB 445 kB/s
+Collecting idna>=2.0
+  Downloading idna-3.2-py3-none-any.whl (59 kB)
+     |████████████████████████████████| 59 kB 3.0 MB/s
+Building wheels for collected packages: fbprophet, pymeeus
+  Building wheel for fbprophet (setup.py) ... error
+  ERROR: Command errored out with exit status 1:
+   command: /root/.local/share/virtualenvs/main_website-MH8iyLXC/bin/python -u -c 'import io, os, sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-idblmw0n/fbprophet_fab28ad1aaab441da545fcd740ba25f7/setup.py'"'"'; __file__='"'"'/tmp/pip-install-idblmw0n/fbprophet_fab28ad1aaab441da545fcd740ba25f7/setup.py'"'"';f = getattr(tokenize, '"'"'open'"'"', open)(__file__) if os.path.exists(__file__) else io.StringIO('"'"'from setuptools import setup; setup()'"'"');code = f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' bdist_wheel -d /tmp/pip-wheel-4wjb7byq
+       cwd: /tmp/pip-install-idblmw0n/fbprophet_fab28ad1aaab441da545fcd740ba25f7/
+  Complete output (40 lines):
+  running bdist_wheel
+  running build
+  running build_py
+  creating build
+  creating build/lib
+  creating build/lib/fbprophet
+  creating build/lib/fbprophet/stan_model
+  Traceback (most recent call last):
+    File "<string>", line 1, in <module>
+    File "/tmp/pip-install-idblmw0n/fbprophet_fab28ad1aaab441da545fcd740ba25f7/setup.py", line 122, in <module>
+      setup(
+    File "/root/.local/share/virtualenvs/main_website-MH8iyLXC/lib/python3.8/site-packages/setuptools/__init__.py", line 153, in setup
+      return distutils.core.setup(**attrs)
+    File "/usr/lib/python3.8/distutils/core.py", line 148, in setup
+      dist.run_commands()
+    File "/usr/lib/python3.8/distutils/dist.py", line 966, in run_commands
+      self.run_command(cmd)
+    File "/usr/lib/python3.8/distutils/dist.py", line 985, in run_command
+      cmd_obj.run()
+    File "/root/.local/share/virtualenvs/main_website-MH8iyLXC/lib/python3.8/site-packages/wheel/bdist_wheel.py", line 299, in run
+      self.run_command('build')
+    File "/usr/lib/python3.8/distutils/cmd.py", line 313, in run_command
+      self.distribution.run_command(command)
+    File "/usr/lib/python3.8/distutils/dist.py", line 985, in run_command
+      cmd_obj.run()
+    File "/usr/lib/python3.8/distutils/command/build.py", line 135, in run
+      self.run_command(cmd_name)
+    File "/usr/lib/python3.8/distutils/cmd.py", line 313, in run_command
+      self.distribution.run_command(command)
+    File "/usr/lib/python3.8/distutils/dist.py", line 985, in run_command
+      cmd_obj.run()
+    File "/tmp/pip-install-idblmw0n/fbprophet_fab28ad1aaab441da545fcd740ba25f7/setup.py", line 48, in run
+      build_models(target_dir)
+    File "/tmp/pip-install-idblmw0n/fbprophet_fab28ad1aaab441da545fcd740ba25f7/setup.py", line 36, in build_models
+      from fbprophet.models import StanBackendEnum
+    File "/tmp/pip-install-idblmw0n/fbprophet_fab28ad1aaab441da545fcd740ba25f7/fbprophet/__init__.py", line 8, in <module>
+      from fbprophet.forecaster import Prophet
+    File "/tmp/pip-install-idblmw0n/fbprophet_fab28ad1aaab441da545fcd740ba25f7/fbprophet/forecaster.py", line 14, in <module>
+      import numpy as np
+  ModuleNotFoundError: No module named 'numpy'
+  ----------------------------------------
+  ERROR: Failed building wheel for fbprophet
+  Running setup.py clean for fbprophet
+  Building wheel for pymeeus (setup.py) ... done
+  Created wheel for pymeeus: filename=PyMeeus-0.5.11-py3-none-any.whl size=730983 sha256=2a689b8610b10e19be06b4ee70cfd7b58038fdfb88ab3e996623fcb2fb7cdac4
+  Stored in directory: /root/.cache/pip/wheels/a0/8b/b2/810ae5a6f970c8be4725353400d643c90de1c0f023a9884ee7
+Successfully built pymeeus
+Failed to build fbprophet
+Installing collected packages: multidict, idna, yarl, typing-extensions, six, marshmallow, chardet, attrs, async-timeout, webargs, pytz, python-dateutil, pymeeus, pylev, pastel, numpy, lz4, crashtest, appdirs, aiohttp, pysimdjson, pyparsing, pillow, pandas, korean-lunar-calendar, kiwisolver, httpstan, hijri-converter, ephem, cycler, convertdate, clikit, tqdm, setuptools-git, pystan, matplotlib, LunarCalendar, holidays, Cython, cmdstanpy, fbprophet
+    Running setup.py install for fbprophet ... error
+    ERROR: Command errored out with exit status 1:
+     command: /root/.local/share/virtualenvs/main_website-MH8iyLXC/bin/python -u -c 'import io, os, sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-idblmw0n/fbprophet_fab28ad1aaab441da545fcd740ba25f7/setup.py'"'"'; __file__='"'"'/tmp/pip-install-idblmw0n/fbprophet_fab28ad1aaab441da545fcd740ba25f7/setup.py'"'"';f = getattr(tokenize, '"'"'open'"'"', open)(__file__) if os.path.exists(__file__) else io.StringIO('"'"'from setuptools import setup; setup()'"'"');code = f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record /tmp/pip-record-bn1dr159/install-record.txt --single-version-externally-managed --compile --install-headers /root/.local/share/virtualenvs/main_website-MH8iyLXC/include/site/python3.8/fbprophet
+         cwd: /tmp/pip-install-idblmw0n/fbprophet_fab28ad1aaab441da545fcd740ba25f7/
+    Complete output (41 lines):
+    running install
+    running build
+    running build_py
+    creating build
+    creating build/lib
+    creating build/lib/fbprophet
+    creating build/lib/fbprophet/stan_model
+    Importing plotly failed. Interactive plots will not work.
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-idblmw0n/fbprophet_fab28ad1aaab441da545fcd740ba25f7/setup.py", line 122, in <module>
+        setup(
+      File "/root/.local/share/virtualenvs/main_website-MH8iyLXC/lib/python3.8/site-packages/setuptools/__init__.py", line 153, in setup
+        return distutils.core.setup(**attrs)
+      File "/usr/lib/python3.8/distutils/core.py", line 148, in setup
+        dist.run_commands()
+      File "/usr/lib/python3.8/distutils/dist.py", line 966, in run_commands
+        self.run_command(cmd)
+      File "/usr/lib/python3.8/distutils/dist.py", line 985, in run_command
+        cmd_obj.run()
+      File "/root/.local/share/virtualenvs/main_website-MH8iyLXC/lib/python3.8/site-packages/setuptools/command/install.py", line 61, in run
+        return orig.install.run(self)
+      File "/usr/lib/python3.8/distutils/command/install.py", line 589, in run
+        self.run_command('build')
+      File "/usr/lib/python3.8/distutils/cmd.py", line 313, in run_command
+        self.distribution.run_command(command)
+      File "/usr/lib/python3.8/distutils/dist.py", line 985, in run_command
+        cmd_obj.run()
+      File "/usr/lib/python3.8/distutils/command/build.py", line 135, in run
+        self.run_command(cmd_name)
+      File "/usr/lib/python3.8/distutils/cmd.py", line 313, in run_command
+        self.distribution.run_command(command)
+      File "/usr/lib/python3.8/distutils/dist.py", line 985, in run_command
+        cmd_obj.run()
+      File "/tmp/pip-install-idblmw0n/fbprophet_fab28ad1aaab441da545fcd740ba25f7/setup.py", line 48, in run
+        build_models(target_dir)
+      File "/tmp/pip-install-idblmw0n/fbprophet_fab28ad1aaab441da545fcd740ba25f7/setup.py", line 38, in build_models
+        StanBackendEnum.get_backend_class(backend).build_model(target_dir, MODEL_DIR)
+      File "/tmp/pip-install-idblmw0n/fbprophet_fab28ad1aaab441da545fcd740ba25f7/fbprophet/models.py", line 209, in build_model
+        import pystan
+    ModuleNotFoundError: No module named 'pystan'
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: /root/.local/share/virtualenvs/main_website-MH8iyLXC/bin/python -u -c 'import io, os, sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-idblmw0n/fbprophet_fab28ad1aaab441da545fcd740ba25f7/setup.py'"'"'; __file__='"'"'/tmp/pip-install-idblmw0n/fbprophet_fab28ad1aaab441da545fcd740ba25f7/setup.py'"'"';f = getattr(tokenize, '"'"'open'"'"', open)(__file__) if os.path.exists(__file__) else io.StringIO('"'"'from setuptools import setup; setup()'"'"');code = f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record /tmp/pip-record-bn1dr159/install-record.txt --single-version-externally-managed --compile --install-headers /root/.local/share/virtualenvs/main_website-MH8iyLXC/include/site/python3.8/fbprophet Check the logs for full command output.
+(main_website) root@LAPTOP-674PR51M:/mnt/d/covid19/NewWebsite/main_website# 
+
+
+#Successfully installed
+pip install pystan==2.17.1.0
+Collecting pystan==2.17.1.0
+  Downloading pystan-2.17.1.0.tar.gz (13.9 MB)
+     |████████████████████████████████| 13.9 MB 7.5 MB/s
+Requirement already satisfied: Cython!=0.25.1,>=0.22 in /root/.local/share/virtualenvs/main_website-MH8iyLXC/lib/python3.8/site-packages (from pystan==2.17.1.0) (0.29.23)
+Requirement already satisfied: numpy>=1.7 in /root/.local/share/virtualenvs/main_website-MH8iyLXC/lib/python3.8/site-packages (from pystan==2.17.1.0) (1.21.0)
+Building wheels for collected packages: pystan
+  Building wheel for pystan (setup.py) ... done
+  Created wheel for pystan: filename=pystan-2.17.1.0-cp38-cp38-linux_x86_64.whl size=53753662 sha256=2d601dad569ef892025d23171958f854bbf199b2752123081a304487237103e2
+  Stored in directory: /root/.cache/pip/wheels/88/63/b8/bac604de655a34faff2677993cd5c57f2377a0418f5848eebf
+Successfully built pystan
+Installing collected packages: pystan
+Successfully installed pystan-2.17.1.0
+(main_website) root@LAPTOP-674PR51M:/mnt/d/covid19/NewWebsite/main_website# pip install fbprophet
+Collecting fbprophet
+  Using cached fbprophet-0.7.1.tar.gz (64 kB)
+Requirement already satisfied: Cython>=0.22 in /root/.local/share/virtualenvs/main_website-MH8iyLXC/lib/python3.8/site-packages (from fbprophet) (0.29.23)
+Requirement already satisfied: cmdstanpy==0.9.5 in /root/.local/share/virtualenvs/main_website-MH8iyLXC/lib/python3.8/site-packages (from fbprophet) (0.9.5)
+Requirement already satisfied: pystan>=2.14 in /root/.local/share/virtualenvs/main_website-MH8iyLXC/lib/python3.8/site-packages (from fbprophet) (2.17.1.0)
+Requirement already satisfied: numpy>=1.15.4 in /root/.local/share/virtualenvs/main_website-MH8iyLXC/lib/python3.8/site-packages (from fbprophet) (1.21.0)
+Requirement already satisfied: pandas>=1.0.4 in /root/.local/share/virtualenvs/main_website-MH8iyLXC/lib/python3.8/site-packages (from fbprophet) (1.2.5)
+Requirement already satisfied: matplotlib>=2.0.0 in /root/.local/share/virtualenvs/main_website-MH8iyLXC/lib/python3.8/site-packages (from fbprophet) (3.4.2)       
+Requirement already satisfied: LunarCalendar>=0.0.9 in /root/.local/share/virtualenvs/main_website-MH8iyLXC/lib/python3.8/site-packages (from fbprophet) (0.0.9)    
+Requirement already satisfied: convertdate>=2.1.2 in /root/.local/share/virtualenvs/main_website-MH8iyLXC/lib/python3.8/site-packages (from fbprophet) (2.3.2)      
+Requirement already satisfied: holidays>=0.10.2 in /root/.local/share/virtualenvs/main_website-MH8iyLXC/lib/python3.8/site-packages (from fbprophet) (0.11.1)       
+Requirement already satisfied: setuptools-git>=1.2 in /root/.local/share/virtualenvs/main_website-MH8iyLXC/lib/python3.8/site-packages (from fbprophet) (1.2)       
+Requirement already satisfied: python-dateutil>=2.8.0 in /root/.local/share/virtualenvs/main_website-MH8iyLXC/lib/python3.8/site-packages (from fbprophet) (2.8.1)  
+Requirement already satisfied: tqdm>=4.36.1 in /root/.local/share/virtualenvs/main_website-MH8iyLXC/lib/python3.8/site-packages (from fbprophet) (4.61.1)
+Requirement already satisfied: pytz>=2014.10 in /root/.local/share/virtualenvs/main_website-MH8iyLXC/lib/python3.8/site-packages (from convertdate>=2.1.2->fbprophet) (2021.1)
+Requirement already satisfied: pymeeus<=1,>=0.3.13 in /root/.local/share/virtualenvs/main_website-MH8iyLXC/lib/python3.8/site-packages (from convertdate>=2.1.2->fbprophet) (0.5.11)
+Requirement already satisfied: hijri-converter in /root/.local/share/virtualenvs/main_website-MH8iyLXC/lib/python3.8/site-packages (from holidays>=0.10.2->fbprophet) (2.1.3)
+Requirement already satisfied: six in /root/.local/share/virtualenvs/main_website-MH8iyLXC/lib/python3.8/site-packages (from holidays>=0.10.2->fbprophet) (1.16.0)  
+Requirement already satisfied: korean-lunar-calendar in /root/.local/share/virtualenvs/main_website-MH8iyLXC/lib/python3.8/site-packages (from holidays>=0.10.2->fbprophet) (0.2.1)
+Requirement already satisfied: ephem>=3.7.5.3 in /root/.local/share/virtualenvs/main_website-MH8iyLXC/lib/python3.8/site-packages (from LunarCalendar>=0.0.9->fbprophet) (4.0.0.2)
+Requirement already satisfied: pyparsing>=2.2.1 in /root/.local/share/virtualenvs/main_website-MH8iyLXC/lib/python3.8/site-packages (from matplotlib>=2.0.0->fbprophet) (2.4.7)
+Requirement already satisfied: pillow>=6.2.0 in /root/.local/share/virtualenvs/main_website-MH8iyLXC/lib/python3.8/site-packages (from matplotlib>=2.0.0->fbprophet) (8.2.0)
+Requirement already satisfied: kiwisolver>=1.0.1 in /root/.local/share/virtualenvs/main_website-MH8iyLXC/lib/python3.8/site-packages (from matplotlib>=2.0.0->fbprophet) (1.3.1)
+Requirement already satisfied: cycler>=0.10 in /root/.local/share/virtualenvs/main_website-MH8iyLXC/lib/python3.8/site-packages (from matplotlib>=2.0.0->fbprophet) 
+(0.10.0)
+Building wheels for collected packages: fbprophet
+  Building wheel for fbprophet (setup.py) ... done
+  Created wheel for fbprophet: filename=fbprophet-0.7.1-py3-none-any.whl size=8564336 sha256=39a82eb72c70b983038ad817845c212f4108ba82e9b1316b822ee3b12ccd8ec3
+  Stored in directory: /root/.cache/pip/wheels/d0/d2/ae/c579b7fd160999d35908f3cb8ebcad7ef64ecaca7b78e4c3c8
+Successfully built fbprophet
+Installing collected packages: fbprophet
+Successfully installed fbprophet-0.7.1
+(main_website) root@LAPTOP-674PR51M:/mnt/d/covid19/NewWebsite/main_website# 
