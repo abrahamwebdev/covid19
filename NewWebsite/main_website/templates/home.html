@@ -9,14 +9,41 @@
            
         </div>
         <div class="column is-three-fifths">
+            <div class="section">
+
+            </div>
             <p class="block title">Select the required State</p>
-            <p class="block">
+            <!-- <p class="block">
                 <a class="subtitle" href="/kerala">Kerala</a>
-            </p>
+            </p> -->
+            <div class="field">
+                <label class="label">State</label>
+                <div class="control">
+                  <div class="select" >
+                    <form id="comment-form1" name="contact-form1"  onsubmit="return mysubmit();">
+                    <select  id="option" class="chosen">
+                      <option value="/kerala">Kerala</option>
+                      <option value="/tn">Tamil Nadu</option>
+                      <div class="section"> </div>  
+                    </select>
+                    <div class="block">
+
+                    </div>
+                    <input class="button is-success" type="submit" value="Submit" />
+                    </form>
+                  </div>
+                </div>
+              </div>
         </div>
         <div class="column is-one-fifth">
 
         </div>
     </div>
+    <script>
+        document.getElementById('comment-form1').addEventListener('submit',(e)=>{
+         e.preventDefault();
+         window.location = (document.getElementById('option').value);
+        })
+    </script>
 </div>
 {% endblock %}

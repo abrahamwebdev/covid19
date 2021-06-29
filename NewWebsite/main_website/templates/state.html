@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block title %}
+    Home Page
+{% endblock %}
+{% block content %}
+<div class="container">
+    <div class="columns">
+        <div class="column is-one-fifth">
+           
+        </div>
+        <div class="column is-three-fifths">
+            <div class="section">
+
+            </div>
+            <p class="block title">Give date for predicting Covid-19 cases</p>
+            <!-- <p class="subtitle"> Date should be in yyyy-mm-dd </p> -->
+            <form class="field" action="#" method="post">
+                <label class="label">Date</label>
+                <div class="control">
+                    <p><input class="input" type="text" name="nm" placeholder="yyyy-mm-dd" /></p>
+                </div>
+                <div class="block">
+
+                </div>
+                <div class="control">
+                    <p><input class="button is-success" type="submit" value="Submit" /></p>
+                </div>
+            </form>
+            
+        </div>
+        <div class="column is-one-fifth">
+
+        </div>
+    </div>
+</div>
+{% endblock %}
